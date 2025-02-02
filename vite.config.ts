@@ -8,6 +8,6 @@ export default defineConfig({
     'process.env.IMAGE_PATH': JSON.stringify('/assets/'),
   },
   plugins: [react(),],
-  
+  base: '/Portfolio25/',
 })
 

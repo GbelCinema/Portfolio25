@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ title, description,tags, img,id }) => {
   const navigate = useNavigate();
 
   const clickHandler = () => {
-    navigate(`/Project/${id}`);
+    navigate(`/Portfolio25/Project/${id}`);
   };
 //добавить динамические размеры для высоты
 

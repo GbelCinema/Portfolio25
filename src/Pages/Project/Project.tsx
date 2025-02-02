@@ -43,7 +43,7 @@ const ProjectPage: React.FC<ProjectPageProps> = () => {
     <>
       <Header />
       <div className="project">
-        <Link className="link" to={"/"}>
+        <Link className="link" to={"/Portfolio25/"}>
           <ReplyIcon /> Вернуться на главную
         </Link>
         <h1>{project.title}</h1>
