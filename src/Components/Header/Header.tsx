@@ -1,6 +1,6 @@
 import "./Header.scss";
 import { Avatar } from "@mui/material";
-import logo from "../../assets/imgs/photo_2024-03-06_21-41-26.jpg";
+import logo from "/imgs/photo_2024-03-06_21-41-26.jpg";
 import DropDown from "../../Components/DropDown/DropDown";
 import useOutsideClick from "../../hooks/useOutsideClick";
 import BasicModal from "../../Components/ModalUi/ModalUi";

@@ -13,7 +13,7 @@ import threejs from "../../assets/icons/threejs.svg";
 import recharts from "../../assets/icons/recharts.svg";
 import IconList from "../Iconslist/Iconslist";
 import Contacts from "../Contacts/Contacts";
-import person from "../../assets/imgs/person.png";
+import person from "/imgs/person.png";
 
 interface MainPageHeadProps {
   name?: string;

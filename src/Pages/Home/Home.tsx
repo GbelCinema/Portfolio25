@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = () => {
               title={card.title}
               description={card.description}
               tags={card.tags}
-              img={card.imgs[0]}
+              img={card.imgs[0]}//img={`${process.env.IMAGE_PATH}${card.imgs[0]}`}
               id={card.id}
               key={card.title}
             />

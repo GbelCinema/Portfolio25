@@ -53,7 +53,7 @@ const Slider: FC<SliderProps> = ({ slides }) => {
       {slides.map((slide, index) => (
         <img
           key={index++}
-          src={slide}
+          src={`/${slide}`}
           alt=""
           className={`${index === currentIndex ? 'visible' : 'hidden'} ${isTransitioning ? 'hidden' : ''}`}
         />

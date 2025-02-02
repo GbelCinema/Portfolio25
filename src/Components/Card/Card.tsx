@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Card.scss";
-import image from "../../assets/imgs/snow.jpeg"
+import image from "/imgs/snow.jpeg"
 
 interface CardProps {
   title?: string;

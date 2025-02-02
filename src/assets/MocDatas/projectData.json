@@ -5,9 +5,9 @@
     "description": "Могу рассказать, что разработал личный кабинет врача, где отображаются данные о задействовании мышц пациента в виде градиента на 3д модели.",
     "link": "https://vtomske.ru/news/206367-uchenye-iz-tomska-sozdali-videoigru-dlya-reabilitacii-posle-insulta",
     "imgs": [
-      "/src/assets/imgs/kinesis.jpg",
-      "/src/assets/imgs/kinesis2.jpg",
-      "/src/assets/imgs/kinesisTheme.jpg"
+      "imgs/kinesis.jpg",
+      "imgs/kinesis2.jpg",
+      "imgs/kinesisTheme.jpg"
     ],
     "tags": ["React", "Mobx", "threejs"]
   },
@@ -15,14 +15,14 @@
     "id": 2,
     "title": "CBI",
     "description": "Разрабатывал приложение для изучения обширной статистики, с выбором по датам за день, месяц, год и огромном количеством фильтров. Данные выводились в виде диаграмм, графиков, таблиц. Так же в рамках проекта была разработана адмника.",
-    "imgs": ["/src/assets/imgs/cbi2.jpg", "/src/assets/imgs/cbi3.jpg", "/src/assets/imgs/cbi.jpg"],
+    "imgs": ["imgs/cbi2.jpg", "imgs/cbi3.jpg", "imgs/cbi.jpg"],
     "tags": ["React", "mobx", "recharts"]
   },
   {
     "id": 3,
     "title": "Администрация Города Томска",
     "description": "Поддержка сайта и внутреннего ПО для документа оборота, в том числе на очень древнем стеке: domino, jquerry, первые версии css.",
-    "imgs": ["/src/assets/imgs/download.jpg", "/src/assets/imgs/admin.png"],
+    "imgs": ["imgs/download.jpg", "imgs/admin.png"],
     "link": "https://admin.tomsk.ru/",
     "tags": ["html", "css", "jquery"]
   },
@@ -31,7 +31,7 @@
     "title": "Тэк-торг (Роснефть)",
     "description": "Разработка платформы большой командой разработчиков, а также дизайнеров и аналитиков. Моя работа заключалась в разработке, компонентов, сборке страниц из готовых блоков, правки багов, расширении функционала написанных компонентов. Создание новых компонентов и страниц под новые потребности заказчика, а также решение вопросов связанных с оптимизацией сайта. У Тэк-торг есть различные крупные партнёры, один из которых являлась Роснефть, чью фичу я интегрировал в проект. На проекте использовался nextjs,scss,redux. Из интересных кейсов разработка прелоудеров в стиле скелетонов для страниц в качестве 'хотелки' заказчика",
     "link": "https://www.tektorg.ru/",
-    "imgs": ["/src/assets/imgs/tek.jpg", "/src/assets/imgs/rosneft.png"],
+    "imgs": ["imgs/tek.jpg", "imgs/rosneft.png"],
     "tags": ["Nextjs", "redux", "scss"]
   },
   {
@@ -40,9 +40,9 @@
     "description": "Первый проект, где я был одним из ключевых разработчиков. Проект с интересными дизайнерскими находками, старшие коллеги помогали в разработке сложных блоках использующие анимации. На тот момент я был джуном, но это не мешало править за ними баги. А также закрывать всю тех. поддержку по проекту в одиночку.",
     "link": "https://bimeister.com/ru/",
     "imgs": [
-      "/src/assets/imgs/bimeister.jpg",
-      "/src/assets/imgs/bimeister2.jpg",
-      "/src/assets/imgs/bimeister3.jpg"
+      "imgs/bimeister.jpg",
+      "imgs/bimeister2.jpg",
+      "imgs/bimeister3.jpg"
     ],
     "tags": ["Pug", "scss", "VanilaJs"]
   },
@@ -51,7 +51,7 @@
     "title": "НЛМК",
     "description": "Был призван на помощь с одним из лендингов НЛМК, разрабатывал пару типовых блоков и получил опыт работы с GSAP.",
     "link": "https://ngoes.nlmk.shop/ru/",
-    "imgs": ["/src/assets/imgs/nlmk.jpg", "/src/assets/imgs/nlmk2.jpg"],
+    "imgs": ["imgs/nlmk.jpg", "imgs/nlmk2.jpg"],
     "tags": ["Pug", "scss", "VanilaJs"]
   },
   {
@@ -59,7 +59,7 @@
     "title": "Sibur",
     "description": "Сборка страниц, фикс багов, создание форм. Вот чем занимался на этом проекте.",
     "link": "https://www.sibur.ru/ru/",
-    "imgs": ["/src/assets/imgs/sibur.png", "/src/assets/imgs/sibur2.jpg"],
+    "imgs": ["imgs/sibur.png", "imgs/sibur2.jpg"],
     "tags": ["Pug", "scss", "VanilaJs"]
   },
   {
@@ -67,7 +67,7 @@
     "title": "Severstal",
     "description": "Огромный проект где я помогал с вёрсткой и фиксом багов.",
     "link": "https://severstal.com/rus/",
-    "imgs": ["/src/assets/imgs/severstal.jpg", "/src/assets/imgs/severstalmain.jpg"],
+    "imgs": ["imgs/severstal.jpg", "imgs/severstalmain.jpg"],
     "tags": ["Nextjs", "css-in-js"]
   },
   {
@@ -75,7 +75,7 @@
     "title": "Успешная аттестация на junior+",
     "description": "Тестовое задние для получения грейда внутри компании, где проверялось умение работать с api для разработки виджета погоды, использование contextApi для создания переключения тем в проекте и другие менее интересные вещи. Использовались nextjs, ts, styled-components. ",
     "link": "https://github.com/funversuta/test",
-    "imgs": ["/src/assets/imgs/junior.jpg", "/src/assets/imgs/test.jpg"],
+    "imgs": ["imgs/junior.jpg", "imgs/test.jpg"],
     "tags": ["Nextjs", "css-in-js"]
   },
   {
@@ -83,7 +83,7 @@
     "title": "Retn",
     "description": "Первый большой коммерческий проект, написанный на nextjs. Проект уже был, на момент моего присоединения, предстояло довести его до релиза под руководством старших товарищей, а также поддержка, баги и тех.долг.",
     "link": "https://retn.ru/",
-    "imgs": ["/src/assets/imgs/retn.png", "/src/assets/imgs/retn.jpg"],
+    "imgs": ["imgs/retn.png", "imgs/retn.jpg"],
     "tags": ["Nextjs", "css-in-js"]
   }
 ]
